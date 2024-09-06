@@ -1,3 +1,16 @@
+# Define the number up to which you want to find the sum
+$n = 10
+
+# Calculate the sum using the formula
+$sum = ($n * ($n + 1)) / 2
+
+# Display the result
+Write-Output "The sum of the first $n natural numbers is: $sum"
+
+
+########################################################################################3
+
+
 #PowerShell Script to number binary 
 
 function Is-BinaryNumber {
